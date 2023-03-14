@@ -5,13 +5,13 @@ theme = "yinyang"
 DefaultContentLanguage = "cn"
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+  # [markup.goldmark]
+  #   [markup.goldmark.renderer]
+  #     unsafe = true
   [markup.highlight]
     # lineNos = true
-    guessSyntax = true
-    noClasses = true
+    # guessSyntax = true
+    # noClasses = true
     style = "tango"
     tabWidth = 4
 
