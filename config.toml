@@ -1,0 +1,29 @@
+baseURL = "https://blog.joway.io/"
+languageCode = "en-us"
+title = "杨佳畅 Blog"
+theme = "yinyang"
+DefaultContentLanguage = "cn"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    # lineNos = true
+    guessSyntax = true
+    noClasses = true
+    style = "tango"
+    tabWidth = 4
+
+[author]
+  name = "jiachang"
+#   homepage = "https://joway.io/"
+
+[params]
+mainSections = ["posts"]
+headTitle = "Random Thoughts"
+Description = "Log something useless, but interesting."
+[[params.socials]]
+name = "About Me"
+link = "/about"
+
